@@ -1,66 +1,194 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
+<h1 align="center">Laundry Management System</h1>
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <b>Sistem manajemen laundry berbasis web untuk pengelolaan outlet, transaksi, dan laporan</b>
 </p>
 
-## About Laravel
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/php-8.0+-8892BF.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/laravel-10.0+-FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/bootstrap-5.0+-7952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📋 Deskripsi
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Aplikasi Laundry adalah sistem manajemen berbasis web yang dikembangkan untuk mengoptimalkan proses bisnis laundry, mulai dari pendaftaran pelanggan, pengelolaan transaksi, hingga pelaporan. Aplikasi ini menyediakan tiga role pengguna dengan akses yang berbeda: Admin, Kasir, dan Owner, yang dirancang untuk meningkatkan efisiensi operasional dan meningkatkan pelayanan pelanggan.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Demo Aplikasi
 
-## Learning Laravel
+### Tampilan Login dengan Efek Parallax
+Aplikasi menggunakan efek parallax pada halaman login untuk memberikan pengalaman visual yang menarik bagi pengguna.
+<p align="center">
+  <img src="public/Login1.png" alt="Tampilan Login dengan Parallax" width="500">
+</p>
+<p align="center">
+  <img src="public/Login2.png" alt="Tampilan Login dengan Parallax" width="500">
+</p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Fitur Utama
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 1. Pengelolaan Outlet
+Admin dapat mengelola informasi outlet lengkap dengan alamat dan detail kontak.
+<p align="center">
+  <img src="public/Data Outlet.png" alt="Pengelolaan Outlet" width="500">
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 2. Manajemen Paket Layanan
+Pengaturan berbagai paket layanan laundry dengan harga dan jenis yang berbeda.
+<p align="center">
+  <img src="public/Data Paket.png" alt="Manajemen Paket" width="500">
+</p>
 
-## Laravel Sponsors
+### 3. Registrasi Pelanggan
+Pendaftaran pelanggan baru dengan data lengkap untuk memudahkan transaksi berikutnya.
+<p align="center">
+  <img src="public/Registrasi Pelanggan.png" alt="Registrasi Pelanggan" width="500">
+</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 4. Transaksi & Invoice
+Pembuatan transaksi lengkap dengan cetak invoice sebagai bukti pembayaran yang sah.
+<p align="center">
+  <img src="public/Kelola Layanan1.png" alt="Kelola Layanan" width="500">
+</p>
+<p align="center">
+  <img src="public/Kelola Layanan2.png" alt="Detail Kelola Layanan" width="500">
+</p>
+<p align="center">
+  <img src="public/Invoice.png" alt="Invoice" width="500">
+</p>
+<p align="center">
+  <img src="public/Transaksi.png" alt="Transaksi" width="500">
+</p>
 
-### Premium Partners
+### 5. Laporan Komprehensif
+Sistem pelaporan detail untuk membantu Owner memonitor kinerja bisnis.
+<p align="center">
+  <img src="public/Laporan Penjualan.png" alt="Laporan" width="500">
+</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### 6. Manajemen Pengguna
+Admin dapat mengelola akun pengguna dengan berbagai role (Admin, Kasir, Owner).
+<p align="center">
+  <img src="public/Data Pengguna.png" alt="Manajemen Pengguna" width="500">
+</p>
 
-## Contributing
+### 7. Profile
+Melihat data riwayat kerja dan mengedit profil pengguna.
+<p align="center">
+  <img src="public/Profile.png" alt="Manajemen Pengguna" width="500">
+</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🌟 Manfaat
 
-## Code of Conduct
+- **Efisiensi Operasional:** Mengurangi waktu yang dibutuhkan untuk registrasi pelanggan dan pembuatan transaksi.
+- **Tracking Status Laundry:** Memudahkan pelacakan status proses laundry dari awal hingga selesai.
+- **Pengelolaan Keuangan:** Membantu Owner melacak pendapatan dan kinerja bisnis melalui laporan yang dapat dicetak.
+- **Manajemen Multi-Outlet:** Mendukung pengelolaan beberapa outlet dalam satu sistem terpadu.
+- **Cetak Invoice Otomatis:** Menghasilkan bukti transaksi profesional yang dapat langsung dicetak untuk pelanggan.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 👥 Struktur Pengguna
 
-## Security Vulnerabilities
+Aplikasi ini memiliki tiga tipe pengguna dengan hak akses berbeda:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Admin
+- Mengelola data outlet (CRUD dengan soft delete)
+- Mengelola data paket (CRUD dengan soft delete)
+- Registrasi pelanggan dan membuat transaksi
+- Mengelola layanan dan transaksi
+- Melihat dan mencetak laporan
+- Mengelola data pengguna (CRUD dengan soft delete)
+- Mengedit profil pribadi
 
-## License
+### Kasir
+- Registrasi pelanggan dan membuat transaksi
+- Mengelola layanan dan transaksi
+- Mengedit profil pribadi
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Owner
+- Melihat dan mencetak laporan
+- Mengedit profil pribadi
+
+## 📊 Alur Kerja Sistem
+
+```mermaid
+graph TD
+    A[Pelanggan Datang] -->|Kasir/Admin| B[Registrasi Pelanggan]
+    B -->|Input Data| C[Pilih Layanan]
+    C -->|Konfirmasi| D[Buat Transaksi]
+    D -->|Cetak| E[Invoice]
+    D -->|Update Status| F[Proses Laundry]
+    F -->|Selesai| G[Update Status Selesai]
+    G -->|Data Tersimpan| H[Laporan]
+    H -->|Owner/Admin| I[Cetak Laporan]
+```
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap, Parallax Effect
+- **Backend:** PHP dengan framework Laravel
+- **Database:** MySQL
+- **Reporting:** DomPDF untuk laporan dan invoice
+
+## 📥 Instalasi dan Penggunaan
+
+### Persyaratan Sistem
+- PHP >= 8.0
+- Composer
+- MySQL
+
+### Langkah Instalasi
+
+1. Clone repositori
+```bash
+git clone https://github.com/AnnisaDianFadillah06/laundry-management-system.git
+cd laundry-management-system
+```
+
+2. Instal dependensi
+```bash
+composer install
+```
+
+3. Salin file .env.example menjadi .env dan konfigurasi
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+4. Konfigurasi database di file .env
+
+5. Migrasi dan isi database
+```bash
+php artisan migrate --seed
+```
+
+6. Jalankan aplikasi
+```bash
+php artisan serve
+```
+
+7. Akses aplikasi melalui browser di http://localhost:8000
+
+## 📚 Detail Menu
+
+### 1. Master (Admin)
+- **Menu Data Outlet:** Mengelola data outlet dengan fitur CRUD dan soft delete.
+- **Menu Data Paket:** Mengelola data paket layanan dengan fitur CRUD dan soft delete.
+
+### 2. Transaksi (Admin & Kasir)
+- **Menu Registrasi Pelanggan:** Mendaftarkan pelanggan baru sekaligus membuat data transaksi dan cetak invoice.
+- **Menu Kelola Layanan:** Menampilkan data pelanggan dan pembuatan transaksi disertai cetak invoice.
+- **Menu Transaksi:** Memperbarui status proses dan pembayaran serta menghapus permanen data transaksi.
+
+### 3. Lainnya (Admin & Owner)
+- **Menu Laporan:** Mencetak data transaksi berdasarkan periode atau kriteria tertentu.
+
+### 4. Pengguna (Admin)
+- **Menu Data Pengguna:** Mengelola data pengguna sistem dengan fitur CRUD dan soft delete.
+
+### 5. Profile (Semua role)
+- Melihat data riwayat kerja dan mengedit profil pengguna.
+
+## 📚 Proyek Ini Dikembangkan Oleh
+Annisa Dian Fadillah
